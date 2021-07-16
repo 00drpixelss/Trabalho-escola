@@ -7,11 +7,11 @@ function Vervalor() {
     document.getElementById('voltar').style.display = 'block';
     if (numero >= 0 && numero <= 3){ 
     msg.style.color = "#FFF"
-    msg.innerHTML = "Seu uso está saudavel!"
+    msg.innerHTML = "Seu uso está saudavel! <br> Para contribuir com nosso projeto clique em voltar e digite novamente o valor e pressione enter 🥰"
 }
     else {
         msg.style.color = "#D62839"
-        msg.innerHTML = "Você não está tendo um uso saudavel!!" 
+        msg.innerHTML = "Você não está tendo um uso saudavel!! <br> Para contribuir com nosso projeto clique em voltar e digite novamente o valor e pressione enter 🥰" 
     }
 }
 function Voltar(){
